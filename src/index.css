@@ -24,7 +24,11 @@
 }
 
 .card {
-  padding: 1em;
+  @apply space-y-2 p-1;
+}
+
+h3 {
+  @apply underline;
 }
 
 a {
